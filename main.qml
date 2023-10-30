@@ -7,13 +7,17 @@ Window {
     width: 600
     height: 500
     title: "HelloApp"
-    opacity: 0.5
+    opacity: 0.7
+    color : "black"
     // borderless
     // flags: Qt.Window | Qt.FramelessWindowHint
 
-    Text {
-        anchors.centerIn: parent
+    TextArea {
+        anchors.fill: parent
+        anchors.leftMargin: 15
+        selectByMouse: true
+        color: "ghostwhite"
         text: "Hello World"
-        font.pixelSize: 24
+        font.pixelSize: 36
     }
 }
