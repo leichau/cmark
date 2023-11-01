@@ -13,6 +13,8 @@ Window {
     // flags: Qt.Window | Qt.FramelessWindowHint
 
     TextArea {
+        id: textBrowser
+        objectName: "textBrowser"
         anchors.fill: parent
         anchors.leftMargin: 15
         selectByMouse: true
