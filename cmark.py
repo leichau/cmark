@@ -10,5 +10,6 @@ if __name__=="__main__":
     engine.load("main.qml")
     root = engine.rootObjects()[0].findChild(QObject, "textBrowser")
     root.setProperty("text", "Text Browser")
+    root.append("Append")
     
     sys.exit(app.exec())
